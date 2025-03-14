@@ -1,0 +1,28 @@
+Iteratia 1:
+Creare si populare baze de date
+Implementare functionalitati
+Legatura cu baza de date
+Interfata grafica:
+	1. pagina de logare
+	2. pagina unui Tester
+		- lista de bugs
+		- text field pentru cautare
+		- text fields pentru datele unui nou bug
+		- buton de reportare bug
+		- buton logout
+	3. pagina unui Programmer
+		- lista de bugs
+		- text field pentru cautare
+		- posibilitatea de a selecta bugs
+		- buton de stergere bug
+		- buton logout
+
+Iteratia 2:
+Implementare Validare date
+Implementare teste pe repository
+Optimizare warning-uri pentru cazurile alternative/exceptii
+
+Iteratie 3
+Optimizare design interfata grafica
+Implementare teste pe service
+
