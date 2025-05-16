@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pr.iss.controller.MainProgrammerController"
+            style="-fx-background-color: #1e1e1e;">
+
+    <top>
+        <Label fx:id="welcomeLabel"
+               style="-fx-text-fill: white; -fx-font-size: 18px; -fx-padding: 15;" />
+    </top>
+
+    <center>
+        <TableView fx:id="bugTable" style="-fx-background-color: #2e2e2e; -fx-text-fill: white;">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" prefWidth="200"/>
+                <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="400"/>
+                <TableColumn fx:id="reporterColumn" text="Reported by" prefWidth="200"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox spacing="15" alignment="TOP_CENTER" style="-fx-padding: 15;">
+            <TextField fx:id="searchField" promptText="Search bug"/>
+            <Button text="Search" onAction="#handleSearch"/>
+
+            <Separator/>
+
+            <Button text="Delete Bug" onAction="#handleDeleteBug"/>
+            <Button text="Log Out" onAction="#handleLogout"/>
+        </VBox>
+    </right>
+</BorderPane>
