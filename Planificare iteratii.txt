@@ -18,11 +18,8 @@ Interfata grafica:
 		- buton logout
 
 Iteratia 2:
-Implementare Validare date
-Implementare teste pe repository
 Optimizare warning-uri pentru cazurile alternative/exceptii
 
 Iteratie 3
 Optimizare design interfata grafica
-Implementare teste pe service
 
